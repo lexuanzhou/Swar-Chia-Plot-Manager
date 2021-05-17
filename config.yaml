@@ -135,8 +135,6 @@ jobs:
     farmer_public_key: 9986c6ce1b0b449d421e690b6b30dcd7225c64ebe0e07745f816e5e33e7d85f5016950fdf5f8ff3ecf3a69c3a4824cea
     pool_public_key: 9516087cea540cc6979546fa2523eb7bb2e5e4c997f8b5d188f7386cc234c92ae3c9feec39d0151a2249e865c52aed39
     max_plots: 27
-    farmer_public_key:
-    pool_public_key:
     temporary_directory: /mnt/disks/temp
     temporary2_directory:
     destination_directory: /media/mingzhao665/DISK 1/first
