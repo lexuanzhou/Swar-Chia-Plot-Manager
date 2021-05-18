@@ -3,7 +3,7 @@
 # WINDOWS EXAMPLE: C:\Users\Swar\AppData\Local\chia-blockchain\app-1.1.5\resources\app.asar.unpacked\daemon\chia.exe
 #   LINUX EXAMPLE: /usr/lib/chia-blockchain/resources/app.asar.unpacked/daemon/chia
 #  LINUX2 EXAMPLE: /home/swar/chia-blockchain/venv/bin/chia
-chia_location: /usr/lib/chia-blockchain/resources/app.asar.unpacked/daemon/chia
+chia_location: ../chia-blockchain/venv/bin/chia
 
 
 manager:
@@ -18,7 +18,7 @@ manager:
 
 log:
   # folder_path: This is the folder where your log files for plots will be saved.
-  folder_path: /home/mingzhao665/Desktop/log
+  folder_path: ./log
 
 
 view:
@@ -137,7 +137,7 @@ jobs:
     max_plots: 27
     temporary_directory: /mnt/disks/temp
     temporary2_directory:
-    destination_directory: /media/mingzhao665/DISK 1/first
+    destination_directory: /mnt/disks/temp/plots
     size: 32
     bitfield: true
     threads: 4
