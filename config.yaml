@@ -132,9 +132,9 @@ jobs:
   #                              These two directories will be in sync so that they will always be submitted as the
   #                              same value.
   - name: job1
-    farmer_public_key: 9986c6ce1b0b449d421e690b6b30dcd7225c64ebe0e07745f816e5e33e7d85f5016950fdf5f8ff3ecf3a69c3a4824cea
-    pool_public_key: 9516087cea540cc6979546fa2523eb7bb2e5e4c997f8b5d188f7386cc234c92ae3c9feec39d0151a2249e865c52aed39
-    max_plots: 27
+    farmer_public_key: 959c3d82696e11ec3547b676239d1b856f02fc0191644a0820a2399b4dd6fa425791bd95e7ae9f73671ea5f1f7ca65ef
+    pool_public_key: 8ba3d8831106ca577b930bb55ab01c46ee0fca4710b31ec506142150b2a654f2937e1305d2dd28437f6e2f04933f58ad
+    max_plots: 999
     temporary_directory: /mnt/disks/temp
     temporary2_directory:
     destination_directory: /mnt/disks/temp/plots
